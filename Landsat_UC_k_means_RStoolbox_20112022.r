@@ -191,12 +191,14 @@ unC
 # Creating color palette
 #colors <- rainbow(10)
 colors <- brewer.pal(n = 11, name = 'Paired')
-#colors <- rev(brewer.pal(n = 10, name = 'Paired'))
+colors <- rev(brewer.pal(n = 10, name = 'Paired'))
+#colors <- rev(brewer.pal(n = 10, name = 'Set3'))
+#colors <- rev(brewer.pal(n = 10, name = 'Set2'))
 #colors <- jet(10)
 # plotting a map
 plot(unC$map, main = "K-means Clustering for Landsat-8 OLI/TIRS C1 image of Kisangani, Congo  \nKisangani_LC08_L1TP_176060_20150113_20200910_02_T1 (2015)", font.main=1, cex.main = 0.85, col = colors, axes = FALSE, box = FALSE, legend = FALSE)
 # adding legend
-legend(x = "topleft", inset = 0.03, legend=c("1=Urban areas", "2=Humid tropical forest", "3=Secondary forest", "4=Inundated grassland", "5=Deciduous forest", "6=Shrubland and grassland", "7=Water", "8=Cropland and mosaic forest", "9=Swamp forest", "10=Savannah, sparse trees"), fill = colors, title = "LULC ID Classes", horiz = FALSE,  bty = "n", text.font=3, ncol=1)
+legend(x = "topleft", inset = 0.03, legend=c("1=Cropland and mosaic forest", "2=Humid tropical forest", "3=Water", "4=Inundated grassland", "5=Deciduous forest", "6=Shrubland and grassland", "7=Secondary forest", "8=Urban areas", "9=Swamp forest", "10=Savannah, sparse trees"), fill = colors, title = "LULC ID Classes", horiz = FALSE,  bty = "n", text.font=3, ncol=1)
 
 #-------------------- Kisangani-2015: END-----------------#
 
@@ -222,13 +224,13 @@ unC
 #
 # Creating color palette
 #colors <- rainbow(10)
-colors <- brewer.pal(n = 11, name = 'Paired')
+colors <- brewer.pal(n = 10, name = 'Paired')
 #colors <- rev(brewer.pal(n = 10, name = 'Paired'))
 #colors <- jet(10)
 # plotting a map
 plot(unC$map, main = "K-means Clustering for Landsat-8 OLI/TIRS C1 image of Kisangani, Congo  \nKisangani_LC08_L1TP_176060_20220217_20220302_02_T1 (2022)", font.main=1, cex.main = 0.85, col = colors, axes = FALSE, box = FALSE, legend = FALSE)
 # adding legend
-legend(x = "topleft", inset = 0.03, legend=c("1=Urban areas", "2=Humid tropical forest", "3=Secondary forest", "4=Inundated grassland", "5=Deciduous forest", "6=Shrubland and grassland", "7=Water", "8=Cropland and mosaic forest", "9=Swamp forest", "10=Savannah, sparse trees"), fill = colors, title = "LULC ID Classes", horiz = FALSE,  bty = "n", text.font=3, ncol=1)
+legend(x = "topleft", inset = 0.03, legend=c("1=Inundated grassland", "2=Humid tropical forest", "3=Savannah, sparse trees", "4=Cropland and mosaic forest", "5=Deciduous forest", "6=Urban areas", "7=Water", "8=Shrubland and grassland", "9=Swamp forest", "10=Secondary forest"), fill = colors, title = "LULC ID Classes", horiz = FALSE,  bty = "n", text.font=3, ncol=1)
 
 #-------------------- Kisangani-2022: END-----------------#
 
