@@ -127,7 +127,7 @@ unC
 # Creating color palette
 #colors <- rainbow(10)
 #colors <- brewer.pal(n = 11, name = 'Paired')
-colors <- rev(brewer.pal(n = 11, name = 'Paired'))
+colors <- rev(brewer.pal(n = 10, name = 'Paired'))
 #colors <- jet(10)
 # plotting a map
 plot(unC$map, main = "K-means Clustering for Landsat-8 OLI/TIRS C1 image of Basoko, Congo  \nLC08_L1TP_177059_20220208_20220212_02_T1 (2022)", font.main=1, cex.main = 0.85, col = colors, axes = FALSE, box = FALSE, legend = FALSE)
@@ -192,7 +192,7 @@ unC
 #colors <- rainbow(10)
 colors <- brewer.pal(n = 11, name = 'Paired')
 colors <- rev(brewer.pal(n = 10, name = 'Paired'))
-#colors <- rev(brewer.pal(n = 10, name = 'Set3'))
+colors <- rev(brewer.pal(n = 12, name = 'Paired'))
 #colors <- rev(brewer.pal(n = 10, name = 'Set2'))
 #colors <- jet(10)
 # plotting a map
