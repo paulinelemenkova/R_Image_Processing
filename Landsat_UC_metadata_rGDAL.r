@@ -1,3 +1,16 @@
+# ============================================================================
+# Landsat image classification and NDVI in R, Congo River Basin (Basoko /
+# Kisangani), Democratic Republic of the Congo.
+# Code from the peer-reviewed article:
+#   Lemenkova, P.; Debeir, O. (2022). R Libraries for Remote Sensing Data
+#   Classification by k-means Clustering and NDVI Computation in Congo River
+#   Basin, DRC. Applied Sciences, 12(24), 12554.
+#   DOI:    https://doi.org/10.3390/app122412554
+#   Zenodo: https://doi.org/10.5281/zenodo.7426773
+#
+# Authors: Polina Lemenkova, Olivier Debeir  |  ORCID: 0000-0002-5759-1089
+# ============================================================================
+
 library(rgdal)
 library(raster)
 # Set up working directory
